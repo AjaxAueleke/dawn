@@ -1,0 +1,120 @@
+body {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+div.up {
+    background-color : black;
+    color : black;
+    width: 100%;
+    text-align : center;
+    padding : 4px 0;
+}
+.image {
+    text-align: center;
+    padding : 1rem;
+}
+figcaption {
+    font-family: sans-serif;
+    line-height: 1rem;
+    color : gray;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
+img[alt="logo"] {
+    width : 20%;
+    display: inline-block;
+    
+}
+div a {
+    display: inline-block;
+    color : grey;
+    text-decoration: none;
+    font-size : 0.6rem;
+    padding :  5px;
+   
+}
+table{
+    width: 100%;
+    border-bottom : 1px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+td{
+    padding :10px 10px;
+    font-size: 0.6rem;
+
+}
+td:hover {
+    background-color: grey;
+    color : white;
+    cursor : pointer
+}
+div.heading{
+    text-align: left;
+    padding : 20px;
+}
+hr {
+    margin-left : -1%;    
+    width : 70%;
+}
+td>input{
+    width : 100%;
+    padding : 0 10px;
+    border-radius : 10px;
+    border : 1px solid grey;
+}
+caption{
+    color : grey;
+}
+img[alt="un-houtis"] {
+    display: block;
+    padding : 2px;
+}
+p:first-of-type{
+    font-weight: bolder;
+}
+p {
+    width : 50%;
+    margin-left : 10%;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+.comments {
+    width : 50%;
+    margin-left : 10%;
+}
+.comments hr {
+    width: 100%;
+    border : none;
+    border-top : 3px solid black;
+}
+.comments p:first-of-type {
+    font-size : 0.8rem;
+    color : red;
+}
+.comments p {
+    padding : 5px 0;
+    margin : 0;
+    font-size : 0.8rem;
+}
+.comments input {
+    width : 45%;
+    margin : 2px 5px;
+    height : 20px;
+}
+textarea{
+    display: block;
+    width : 100%;
+    
+}
+button{
+    color : white;
+    background-color: black;
+    outline : none;
+    border : none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+
+}
